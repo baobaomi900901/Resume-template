@@ -23,7 +23,3 @@ features:
   - title: 项目 C
     details: 简介
 ---
-
-![](assets/image.png)
-
-![image-20240528235749690](./assets/image-20240528235749690.png)
