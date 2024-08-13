@@ -23,3 +23,18 @@ features:
   - title: 项目 C
     details: 简介
 ---
+
+<!-- 自定模块 -->
+
+<Home></Home>
+
+<script setup>
+import { ref, reactive } from "vue";
+import Home from "./example/Home.vue";
+</script>
+
+<style>
+  .Home{
+    color:red
+  }
+</style>
