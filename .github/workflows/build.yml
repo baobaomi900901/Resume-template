@@ -32,13 +32,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn
+          cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: yarn install
+        run: npm install
+      - name: Install dependencies
+        run: npm install -g fontfaceobserver
       - name: Build with VitePress
-        run: yarn docs:build
+        run: npm run docs:build
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
