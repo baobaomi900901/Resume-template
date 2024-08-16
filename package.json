@@ -12,8 +12,6 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@alloc/fontfaceobserver-es": "^2.3.2",
-    "fontfaceobserver": "^2.3.0",
     "minisearch": "^7.1.0",
     "vue": "^3.4.21"
   },
@@ -21,6 +19,7 @@
     "@iframe-resizer/vue": "^5.1.4",
     "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.19",
+    "fontfaceobserver": "^2.3.0",
     "gsap": "^3.12.5",
     "ksw-vue-icon": "latest",
     "postcss": "^8.4.38",

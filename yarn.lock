@@ -150,11 +150,6 @@
     "@algolia/logger-common" "4.24.0"
     "@algolia/requester-common" "4.24.0"
 
-"@alloc/fontfaceobserver-es@^2.3.2":
-  version "2.3.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/@alloc/fontfaceobserver-es/-/fontfaceobserver-es-2.3.2.tgz#f7e9a242592937d6171f472160d3a6adc70e4719"
-  integrity sha512-Mh8NEIk4ytDK7SlgY4uSNeUoCrR4cBhGye+Xn6WNxzfwc0LhWeG+6xxkMfCQDYbW9HoLrE+YX18w8SxY4krWgA==
-
 "@alloc/quick-lru@^5.2.0":
   version "5.2.0"
   resolved "https://mirrors.cloud.tencent.com/npm/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
