@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build with VitePress
-        run: yarn build
+        run: yarn docs:build
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
