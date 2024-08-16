@@ -39,7 +39,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { signal } from "./gobalState";
-import FontFaceObserver from "fontFaceObserver";
+import FontFaceObserver from "fontfaceobserver";
 
 // gsap
 import { gsap } from "gsap";
@@ -66,7 +66,8 @@ onMounted(() => {
   const font = new FontFaceObserver("Foldit");
   font.load().then(
     function () {
-      // console.log("加载成功");
+      console.log("加载成功");
+      ``;
       tl.play();
     },
     function () {

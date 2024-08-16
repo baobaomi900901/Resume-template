@@ -37,8 +37,6 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: yarn install
-      - name: Install dependencies
-        run: yarn install -g fontfaceobserver
       - name: Build with VitePress
         run: yarn docs:build
       - name: Upload pages artifact
