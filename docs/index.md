@@ -3,20 +3,22 @@
 layout: home
 
 hero:
-  name: "KSW"
-  text: "knowledge base"
-  tagline: Store knowledge about design and code
+  name: "王鹏程"
+  text: "D&C_知识小站"
+  tagline: 这里记录着我 Design & Code 的成长。
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: ./示例/markdown-examples
+      text: 自我介绍
+      link: ./文档/自我介绍
     - theme: alt
-      text: API Examples
-      link: ./示例/markdown-examples
+      text: 服务开源项目
+      link: ./文档/开源项目
+  image:
+    src: /home.png
 
 features:
-  - title: 项目 A
-    details: 简介
+  - title: 示例项目
+    details: xxx 用途
     link: ./示例/markdown-examples
   - title: 项目 B
     details: 简介
@@ -26,7 +28,6 @@ features:
 
 <!-- 自定模块 -->
 
-{{signal}}
 <loading></loading>
 
 <script setup>
@@ -140,18 +141,18 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  border: 0.125rem solid black;
   background-color: #fff;
   color: black;
   font-weight: 600;
 }
 .box-face4 {
   transform: translateZ(-32px) rotateY(180deg);
+    border: 0.125rem solid rgba(0,0,0,0.1);
 }
 .box-face2 {
   transform: rotateY(-270deg) translateX(32px);
   transform-origin: top right;
+    border: 0.125rem solid rgba(0,0,0,0.1);
 }
 .box-face3 {
   transform: rotateY(270deg) translateX(-32px);
@@ -161,6 +162,7 @@ onMounted(() => {
   background-repeat: no-repeat;
   /* 图片自适应宽高 */
   background-size: cover;
+    border: 0.125rem solid rgba(0,0,0,0.1);
 }
 .box-face1 {
   transform: translateZ(32px);
@@ -168,7 +170,6 @@ onMounted(() => {
   color: white;
   box-sizing: border-box;
   overflow: hidden;
-  box-shadow: inset 0px 0px 40px rgba(0, 0, 0, .8), 0px 8px 20px rgba(0, 0, 0, .6);
 }
 
 .box-face1:after {

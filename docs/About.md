@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <script setup>
 import {
   VPTeamPage,
@@ -24,7 +25,7 @@ const members = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      认识我们的团队
+      我是王鹏程
     </template>
     <template #lead>
       KSW Design 是一个专注于高质量图标组件开发的创新项目。我们的团队由经验丰富的设计师和技术专家组成，致力于为移动应用、网页、桌面应用和品牌提供精美的图标设计。

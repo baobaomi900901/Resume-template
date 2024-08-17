@@ -30,7 +30,7 @@ const componentsSidebarOptions = {
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "baobaomi",
+  title: "WPC·D&C",
   description:
     "基于 KSW Design 设计体系的 Vue3 组件库，用于研发企业级中后台产品。",
   vite: {
@@ -91,8 +91,8 @@ export default defineConfig({
         ],
       },
       {
-        text: "团队",
-        link: "/team",
+        text: "About",
+        link: "/About",
       },
     ],
 
