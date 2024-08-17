@@ -63,35 +63,21 @@ const tl = gsap.timeline();
 watch(signal, (newVal, oldVal) => {
   nextTick(() => {
     if (newVal) {
-      loge.value.insertAdjacentHTML('afterbegin', divContent);
-      console.log(newVal, loadingDom.value);
-      // const addDom = gsap.to(loadingDom.value, {
-      //   backgroundColor: "rgba(20,20,20,0.5)",
-      //   duration: 0.5,
-      //   delay: 2,
-      //   onComplete: () => {
-      //     loadingDom.value.style.zIndex = 0;
-      //     loadingDom.value.style.display = "none";
-      //   }
-      // })
-      // const logoHide = gsap.to(logoBox.value, {
-      //   y: '2rem',
-      //   opacity: 0,
-      //   duration: 1,
-      // })
-      // tl.add(addDom)
+      // loge.value.insertAdjacentHTML('afterbegin', divContent);
+      // console.log(newVal, loadingDom.value);
     }
-
   })
 })
 
 
 onMounted(() => {
   loadingDom.value = document.querySelector(".loading");
-  loge.value = document.querySelector(".container > .title");
+  loge.value = document.querySelector(".VPNavBarTitle > .title");
   logoBox.value = document.querySelector(".containerBox2");
   // loadingDom.value.style.zIndex = 0;
   // loadingDom.value.style.display = "none";
+
+  loge.value.insertAdjacentHTML('afterbegin', divContent);
 
   // loge.value.insertAdjacentHTML('afterbegin', divContent);
 })
@@ -107,6 +93,9 @@ onMounted(() => {
 .container > .title {
   position: relative;
 }
+.VPNavBarTitle > .title {
+  position: relative;
+}
 .VPImage.logo{
   margin-right: 1rem;
   opacity: 0;
@@ -114,7 +103,6 @@ onMounted(() => {
 .containerBox2 {
   width: 4rem;
   height: 4rem;
-  transform: scale(0.5);
   position: absolute;
   top: 50%;
   left: 0;
@@ -162,7 +150,6 @@ onMounted(() => {
   background-repeat: no-repeat;
   /* 图片自适应宽高 */
   background-size: cover;
-    border: 0.125rem solid rgba(0,0,0,0.1);
 }
 .box-face1 {
   transform: translateZ(32px);

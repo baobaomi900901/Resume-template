@@ -19,8 +19,8 @@ const suffixes = (term, minLength) => {
 
 const componentsSidebarOptions = {
   documentRootPath: "/docs",
-  scanStartPath: "knowledge",
-  resolvePath: "/knowledge/",
+  scanStartPath: "知识库",
+  resolvePath: "/知识库/",
   useTitleFromFileHeading: true,
   useTitleFromFrontmatter: true,
   useFolderTitleFromIndexFile: true,
@@ -76,7 +76,7 @@ export default defineConfig({
     logo: { src: "logo.png", width: 32, height: 32 },
     nav: [
       // 创建文章分类集 [1]:  在 head 中创建一个 分类集, 指向文件夹
-      { text: "知识库", link: "/knowledge/button" },
+      { text: "知识库", link: "/知识库/button" },
       {
         text: "外部链接",
         items: [
@@ -98,8 +98,8 @@ export default defineConfig({
 
     sidebar: {
       // 创建文章分类集 [2]: 用插件自动创建文章路由
-      "/knowledge/": {
-        base: "/knowledge/",
+      "/知识库/": {
+        base: "/知识库/",
         items: [
           {
             text: "通用",
