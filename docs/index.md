@@ -33,9 +33,6 @@ features:
 <script setup>
 import { ref, reactive, onMounted, watch ,nextTick} from "vue";
 import loading from "../src/loading.vue";
-import { signal } from "../src/gobalState.js"; // loading 动画执行状态
-import { gsap } from "gsap";
-
 
 const loge=ref();
 const logoBox=ref();
@@ -58,38 +55,23 @@ const divContent = `
                </div>
            </div>
        </div>`;
-const tl = gsap.timeline();
-
-watch(signal, (newVal, oldVal) => {
-  nextTick(() => {
-    if (newVal) {
-      // loge.value.insertAdjacentHTML('afterbegin', divContent);
-      // console.log(newVal, loadingDom.value);
-    }
-  })
-})
-
 
 onMounted(() => {
   loadingDom.value = document.querySelector(".loading");
   loge.value = document.querySelector(".VPNavBarTitle > .title");
   logoBox.value = document.querySelector(".containerBox2");
-  // loadingDom.value.style.zIndex = 0;
-  // loadingDom.value.style.display = "none";
 
   loge.value.insertAdjacentHTML('afterbegin', divContent);
-
-  // loge.value.insertAdjacentHTML('afterbegin', divContent);
 })
 </script>
 
 <style >
-  .Home{
-    color:red
-  }
-  img{
-    border-radius: 0;
-  }
+.Home{
+  color:red
+}
+img{
+  border-radius: 0;
+}
 .container > .title {
   position: relative;
 }

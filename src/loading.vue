@@ -38,7 +38,6 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { signal } from "./gobalState";
 import FontFaceObserver from "fontfaceobserver";
 
 // gsap
@@ -141,7 +140,6 @@ onMounted(() => {
     duration: 0.75,
     onComplete: () => {
       progress.value.style.display = "none";
-      signal.value = true;
     },
   });
   const Anime_LogoHide = gsap.to(containerBox.value, {
