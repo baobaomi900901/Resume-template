@@ -28,7 +28,7 @@ features:
 
 <!-- 自定模块 -->
 
-<loading></loading>
+<!-- <loading></loading> -->
 
 <script setup>
 import { ref, reactive, onMounted, watch ,nextTick} from "vue";
@@ -61,7 +61,7 @@ onMounted(() => {
   loge.value = document.querySelector(".VPNavBarTitle > .title");
   logoBox.value = document.querySelector(".containerBox2");
 
-  loge.value.insertAdjacentHTML('afterbegin', divContent);
+  // loge.value.insertAdjacentHTML('afterbegin', divContent);
 })
 </script>
 
@@ -72,12 +72,6 @@ onMounted(() => {
 img{
   border-radius: 0;
 }
-.container > .title {
-  position: relative;
-}
-.VPNavBarTitle > .title {
-  position: relative;
-}
 .VPImage.logo{
   margin-right: 1rem;
   opacity: 0;
@@ -85,10 +79,7 @@ img{
 .containerBox2 {
   width: 4rem;
   height: 4rem;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(-12px, -50%) scale(0.5);
+  transform:  scale(0.5);
   z-index: 9999;
 }
 .containerBox2 >.box-wrapper {

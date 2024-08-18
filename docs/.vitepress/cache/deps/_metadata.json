@@ -1,67 +1,85 @@
 {
-  "hash": "b0bb7615",
-  "configHash": "c126cfa3",
-  "lockfileHash": "dfb58025",
-  "browserHash": "ea8c3742",
+  "hash": "c919924c",
+  "configHash": "a11c9e16",
+  "lockfileHash": "6fcfabd4",
+  "browserHash": "58d6679c",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "c74fccf2",
+      "fileHash": "0ec88500",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "f89e1165",
+      "fileHash": "b65f4302",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "329c678d",
+      "fileHash": "86bd0e07",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "4d08ed65",
+      "fileHash": "4246b79c",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "5dbc5618",
+      "fileHash": "e80f04b1",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "266e526d",
+      "fileHash": "b675f969",
       "needsInterop": false
     },
-    "gsap": {
-      "src": "../../../../node_modules/gsap/index.js",
-      "file": "gsap.js",
-      "fileHash": "db9a0f8c",
+    "@escook/vitepress-theme": {
+      "src": "../../../../node_modules/@escook/vitepress-theme/dist/index.js",
+      "file": "@escook_vitepress-theme.js",
+      "fileHash": "7318fa5c",
       "needsInterop": false
     },
     "fontfaceobserver": {
       "src": "../../../../node_modules/fontfaceobserver/fontfaceobserver.standalone.js",
       "file": "fontfaceobserver.js",
-      "fileHash": "bc393020",
+      "fileHash": "527393eb",
       "needsInterop": true
+    },
+    "gsap": {
+      "src": "../../../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "810b2ee2",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-4ZZJLTV3": {
-      "file": "chunk-4ZZJLTV3.js"
+    "EscookMusicBall-BkDBnoZh-D3QWUNFE": {
+      "file": "EscookMusicBall-BkDBnoZh-D3QWUNFE.js"
     },
-    "chunk-PAUCAATC": {
-      "file": "chunk-PAUCAATC.js"
+    "EscookHomeFeatureBefore-D_e5sYrO-X5NPKCL4": {
+      "file": "EscookHomeFeatureBefore-D_e5sYrO-X5NPKCL4.js"
     },
-    "chunk-BUSYA2B4": {
-      "file": "chunk-BUSYA2B4.js"
+    "EscookConfetti-BU05OPRV-NNC2DOTV": {
+      "file": "EscookConfetti-BU05OPRV-NNC2DOTV.js"
+    },
+    "chunk-LIZOMMBA": {
+      "file": "chunk-LIZOMMBA.js"
+    },
+    "chunk-O3YQPVDG": {
+      "file": "chunk-O3YQPVDG.js"
+    },
+    "chunk-LIRKO5IK": {
+      "file": "chunk-LIRKO5IK.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
     }
   }
 }
