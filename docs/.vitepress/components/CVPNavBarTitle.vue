@@ -25,7 +25,9 @@
             <div class="box-face box-face4">
               <p>C</p>
             </div>
-            <div class="box-face box-face3"></div>
+            <div class="box-face box-face3">
+              <p class="text-2xl">😼</p>
+            </div>
           </div>
         </div>
       </div>
@@ -41,7 +43,7 @@
 
 <script setup>
 import { ref, reactive, computed } from "vue";
-import { useData } from "./composables/data";
+import { useData } from "vitepress";
 import { useSidebar } from "./composables/sidebar";
 import { useLangs } from "./composables/langs";
 import { normalizeLink } from "./support/utils";
@@ -122,8 +124,7 @@ const target = computed(() =>
 .box-face3 {
   transform: rotateY(270deg) translateX(-32px);
   transform-origin: center left;
-  font-size: 1.5rem;
-  background-image: url("./public/Virtual-image.png");
+  /* background-image: url("/Virtual-image.png"); */
   background-repeat: no-repeat;
   /* 图片自适应宽高 */
   background-size: cover;
@@ -166,7 +167,7 @@ const target = computed(() =>
   }
 }
 
-.containerBox2 .box-faces:hover {
+.VPNavBarTitle:hover .box-faces {
   transform: rotateY(-270deg);
   transition: 2s transform cubic-bezier(0.79, 0, 0.54, 0.99);
 }

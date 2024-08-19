@@ -1,5 +1,4 @@
-import { withBase } from "vitepress";
-import { useData } from "../composables/data";
+import { withBase, useData } from "vitepress";
 import { isExternal, treatAsHtml } from "../shared";
 
 export function throttleAndDebounce(fn: () => void, delay: number): () => void {

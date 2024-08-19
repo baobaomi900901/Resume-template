@@ -1,6 +1,6 @@
 import { computed } from "vue";
 import { ensureStartingSlash } from "../support/utils";
-import { useData } from "./data";
+import { useData } from "vitepress";
 
 export function useLangs({ correspondingLink = false } = {}) {
   const { site, localeIndex, page, theme, hash } = useData();

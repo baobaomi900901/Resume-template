@@ -17,7 +17,7 @@ import {
   getSidebar,
   getSidebarGroups,
 } from "../support/sidebar";
-import { useData } from "./data";
+import { useData } from "vitepress";
 
 export interface SidebarControl {
   collapsed: Ref<boolean>;

@@ -33,7 +33,7 @@ export default defineConfigWithTheme({
   // 3. specify the configuration to inherit via extended
   extends: escookConfig,
   lang: "zh-CN",
-  title: "WPC·D&C",
+  title: "MT·D&C",
   description: "个人知识站",
   vite: {
     plugins: [],
@@ -86,7 +86,7 @@ export default defineConfigWithTheme({
     // omit other configuration items...
     nav: [
       // 创建文章分类集 [1]:  在 head 中创建一个 分类集, 指向文件夹
-      { text: "知识库", link: "/知识库/button" },
+      { text: "知识库", link: "/知识库" },
       {
         text: "外部链接",
         items: [
@@ -105,6 +105,20 @@ export default defineConfigWithTheme({
         link: "/About",
       },
     ],
+
+    sidebar: {
+      // 创建文章分类集 [2]: 用插件自动创建文章路由
+      "/知识库/": {
+        base: "/知识库/",
+        items: [
+          {
+            text: "通用",
+            items: generateSidebar(componentsSidebarOptions),
+          },
+        ],
+      },
+    },
+
     // 社交链接
     socialLinks: [
       { icon: "github", link: "https://github.com/baobaomi900901" },
