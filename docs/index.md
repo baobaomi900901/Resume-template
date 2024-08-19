@@ -32,7 +32,7 @@ features:
 
 <script setup>
 import { ref } from "vue";
-import loading from "../src/loading.vue";
+import loading from "./components/loading.vue";
 
 </script>
 

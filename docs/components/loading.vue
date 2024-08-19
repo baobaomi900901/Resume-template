@@ -218,7 +218,7 @@ onMounted(() => {
   transform: rotateY(270deg) translateX(-32px);
   transform-origin: center left;
   font-size: 1.5rem;
-  background-image: url("../docs/public/Virtual-image.png");
+  background-image: url("/Virtual-image.png");
   background-repeat: no-repeat;
   /* 图片自适应宽高 */
   background-size: cover;
