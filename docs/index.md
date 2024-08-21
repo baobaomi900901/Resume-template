@@ -10,9 +10,11 @@ hero:
     - theme: brand
       text: 自我介绍
       link: ./文档/自我介绍
+      img: /cover/1.png
     - theme: alt
       text: 服务开源项目
       link: ./文档/开源项目
+      img: /cover/1.png
   image:
     src: /home.png
 
@@ -48,4 +50,6 @@ img{
   opacity: 0;
 }
 
+.VPContent{
+}
 </style>

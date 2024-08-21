@@ -17,10 +17,10 @@
         <div class="box-wrapper">
           <div ref="boxFaces" class="box-faces">
             <div class="box-face box-face1">
-              <p>W</p>
+              <p>MT</p>
             </div>
             <div class="box-face box-face2">
-              <p>P</p>
+              <p>D</p>
             </div>
             <div class="box-face box-face4">
               <p>C</p>

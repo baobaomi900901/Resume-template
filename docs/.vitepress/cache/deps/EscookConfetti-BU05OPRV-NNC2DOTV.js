@@ -2,7 +2,7 @@ import {
   defineComponent,
   onMounted
 } from "./chunk-LIRKO5IK.js";
-import "./chunk-PR4QN5HX.js";
+import "./chunk-5WRI5ZAA.js";
 
 // node_modules/canvas-confetti/dist/confetti.module.mjs
 var module = {};
@@ -743,4 +743,4 @@ var u = defineComponent({
 export {
   u as default
 };
-//# sourceMappingURL=EscookConfetti-BU05OPRV-XLJQKGJG.js.map
+//# sourceMappingURL=EscookConfetti-BU05OPRV-NNC2DOTV.js.map

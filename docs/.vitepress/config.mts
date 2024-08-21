@@ -38,6 +38,7 @@ export default defineConfigWithTheme({
   vite: {
     plugins: [],
     resolve: {
+      // 自定义替换默认组件
       alias: [
         {
           find: /^.*\/VPLocalSearchBox\.vue$/,
@@ -53,6 +54,12 @@ export default defineConfigWithTheme({
           find: /^.*\/VPNavBarTitle\.vue$/,
           replacement: fileURLToPath(
             new URL("./components/CVPNavBarTitle.vue", import.meta.url)
+          ),
+        },
+        {
+          find: /^.*\/VPHome\.vue$/,
+          replacement: fileURLToPath(
+            new URL("./components/CVPHome.vue", import.meta.url)
           ),
         },
       ],
@@ -172,13 +179,13 @@ export default defineConfigWithTheme({
       },
     },
 
-    confetti: false,
+    // confetti: false,
 
-    musicBall: {
-      src: "https://img3.tukuppt.com/newpreview_music/09/01/62/5c89fd22dea6948307.mp3",
-      // visible: true, // 是否显示音乐图标
-      // autoplay: true, // 是否自动播放
-    },
+    // musicBall: {
+    //   src: "https://img3.tukuppt.com/newpreview_music/09/01/62/5c89fd22dea6948307.mp3",
+    //   // visible: true, // 是否显示音乐图标
+    //   // autoplay: true, // 是否自动播放
+    // },
   },
   cleanUrls: true,
   markdown: {

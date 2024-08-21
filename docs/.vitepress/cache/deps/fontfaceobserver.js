@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "./chunk-PR4QN5HX.js";
+} from "./chunk-5WRI5ZAA.js";
 
 // node_modules/fontfaceobserver/fontfaceobserver.standalone.js
 var require_fontfaceobserver_standalone = __commonJS({
