@@ -10,7 +10,7 @@ import { useData as y, defineClientComponent as n } from "vitepress";
 var b = defineComponent({
   setup(g, { slots: i }) {
     var s, l, r, u;
-    const o = i, { Layout: c } = m, { site: f } = y(), e = f.value.themeConfig, p = ((s = e.musicBall) == null ? void 0 : s.enable) && (((l = e.musicBall) == null ? void 0 : l.src) || ((u = (r = e.musicBall) == null ? void 0 : r.list) == null ? void 0 : u.length) > 0), h2 = n(() => import("./EscookMusicBall-BkDBnoZh-2IWOQEAF.js"), [
+    const o = i, { Layout: c } = m, { site: f } = y(), e = f.value.themeConfig, p = ((s = e.musicBall) == null ? void 0 : s.enable) && (((l = e.musicBall) == null ? void 0 : l.src) || ((u = (r = e.musicBall) == null ? void 0 : r.list) == null ? void 0 : u.length) > 0), h2 = n(() => import("./EscookMusicBall-BkDBnoZh-QPEOWPWP.js"), [
       {
         style: { display: e.musicBall && e.musicBall.visible ? "" : "none" }
       }
