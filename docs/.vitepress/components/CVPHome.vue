@@ -217,22 +217,31 @@ nextTick(() => {
   actions.value = fm.value.hero.actions;
   features.value = fm.value.features;
 
+  const link = document.createElement("link");
+  link.href =
+    "https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap";
+  link.rel = "stylesheet";
+
+  const link2 = document.createElement("link");
+  link2.href = "https://fonts.cdnfonts.com/css/blanquotey";
+  link2.rel = "stylesheet";
+  document.head.appendChild(link);
+  document.head.appendChild(link2);
+
   const font = new FontFaceObserver("Foldit");
-  font.load().then(
+  const font2 = new FontFaceObserver("blanquotey");
+  Promise.all([font.load(), font2.load()]).then(
     function () {
+      console.log("Both fonts have loaded");
       initializeScene(
         createTextTexture("MOBY TANG", "Blanquotey", null, "#ffffff", "100")
       );
       animateScene();
     },
     function () {
-      initializeScene(
-        createTextTexture("MOBY TANG", "Blanquotey", null, "#ffffff", "100")
-      );
-      animateScene();
+      console.log("One or more fonts failed to load");
     }
   );
-
   textContainer.value.addEventListener("mousemove", handleMouseMove);
   textContainer.value.addEventListener("mouseenter", handleMouseEnter);
   textContainer.value.addEventListener("mouseleave", handleMouseLeave);
