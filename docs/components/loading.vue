@@ -56,6 +56,8 @@ const numberObject = { value: 0 };
 const fontLoading = ref(true);
 
 onMounted(() => {
+  console.log(123);
+
   const link = document.createElement("link");
   link.href =
     "https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap";

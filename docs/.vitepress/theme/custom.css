@@ -1,4 +1,4 @@
-.VPImage.logo{
+.VPImage.logo {
   margin-bottom: 2px;
   height: auto;
 }
@@ -11,26 +11,30 @@
 }
 
 .custom-parent-highlight {
-  background-color: rgb(255 255 0 /  16%);
+  background-color: rgb(255 255 0 / 16%);
   box-shadow: 0 0 0 6px rgb(255 255 0 / 16%);
   border-radius: 4px;
-  animation: highlight-parent-animation .7s ease forwards;
+  animation: highlight-parent-animation 0.7s ease forwards;
 }
 
 .custom-terms-highlight {
   display: inline-block;
   position: relative;
-  background-size: 200% 100%; 
-  background-image: linear-gradient(to right, var(--vp-c-text-1) 50%, marktext 50%);
-  transition: all .7s ease; 
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    to right,
+    var(--vp-c-text-1) 50%,
+    marktext 50%
+  );
+  transition: all 0.7s ease;
   -webkit-background-clip: text, border-box;
-  background-clip: text, border-box; 
+  background-clip: text, border-box;
   color: transparent;
-  animation: highlight-text-animation .7s ease forwards;
+  animation: highlight-text-animation 0.7s ease forwards;
 }
 
 .custom-terms-highlight::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -40,7 +44,7 @@
   background-color: mark;
   /* box-shadow: 0 0 0 2px mark; */
   z-index: -1;
-  animation: highlight-animation .7s ease forwards;
+  animation: highlight-animation 0.7s ease forwards;
 }
 
 @keyframes highlight-parent-animation {
@@ -70,7 +74,8 @@
   }
 }
 
-video, img {
+video,
+img {
   border-radius: 0.5rem;
 }
 

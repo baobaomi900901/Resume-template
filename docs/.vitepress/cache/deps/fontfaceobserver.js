@@ -2,9 +2,9 @@ import {
   __commonJS
 } from "./chunk-5WRI5ZAA.js";
 
-// node_modules/fontfaceobserver/fontfaceobserver.standalone.js
+// node_modules/.pnpm/fontfaceobserver@2.3.0/node_modules/fontfaceobserver/fontfaceobserver.standalone.js
 var require_fontfaceobserver_standalone = __commonJS({
-  "node_modules/fontfaceobserver/fontfaceobserver.standalone.js"(exports, module) {
+  "node_modules/.pnpm/fontfaceobserver@2.3.0/node_modules/fontfaceobserver/fontfaceobserver.standalone.js"(exports, module) {
     (function() {
       function p(a, c) {
         document.addEventListener ? a.addEventListener("scroll", c, false) : a.attachEvent("scroll", c);

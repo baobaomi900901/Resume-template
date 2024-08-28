@@ -30,11 +30,8 @@ features:
 
 <!-- 自定模块 -->
 
-<!-- <loading></loading> -->
-
 <script setup>
 import { ref } from "vue";
-import loading from "./components/loading.vue";
 
 </script>
 
