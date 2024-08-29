@@ -65,12 +65,12 @@ function createTextTexture(text, font, size, color, fontWeight = "100") {
   canvas.width = canvasWidth;
   canvas.height = canvasHeight;
 
-  ctx.fillStyle = color || "#ffffff";
+  ctx.fillStyle = color || "#1b1b1f";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   const fontSize = size || Math.floor(canvasWidth * 2);
 
-  ctx.fillStyle = "#1a1a1a";
+  ctx.fillStyle = "#fff";
   ctx.font = `${fontWeight} ${fontSize}px "${font || "Blanquotey"}"`;
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
@@ -135,7 +135,7 @@ function initializeScene(texture) {
   scene.add(planeMesh);
 
   renderer = new THREE.WebGLRenderer({ antialias: true });
-  renderer.setClearColor(0xffffff, 1);
+  renderer.setClearColor(0x1b1b1f, 1);
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setPixelRatio(window.devicePixelRatio);
 
@@ -144,7 +144,7 @@ function initializeScene(texture) {
 
 function reloadTexture() {
   const newTexture = createTextTexture(
-    "MOBY TANG",
+    "  MOBY  ",
     "Blanquotey",
     null,
     "#ffffff",
@@ -234,7 +234,7 @@ nextTick(() => {
     function () {
       console.log("Both fonts have loaded");
       initializeScene(
-        createTextTexture("MOBY TANG", "Blanquotey", null, "#ffffff", "100")
+        createTextTexture("  MOBY  ", "Blanquotey", null, "#1b1b1f", "100")
       );
       animateScene();
     },
