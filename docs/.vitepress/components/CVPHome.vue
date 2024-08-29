@@ -3,7 +3,7 @@
 // import VPHomeFeatures from "./CVPHomeFeatures.vue";
 // import VPHomeContent from "./CVPHomeContent.vue";
 import { useData } from "vitepress";
-import { ref, nextTick } from "vue";
+import { ref, nextTick, onMounted } from "vue";
 import * as THREE from "three";
 import loading from "../../components/loading.vue";
 import FontFaceObserver from "fontfaceobserver";
@@ -209,7 +209,7 @@ function onWindowResize() {
   reloadTexture();
 }
 
-nextTick(() => {
+onMounted(() => {
   name.value = fm.value.hero.name;
   text.value = fm.value.hero.text;
   tagline.value = fm.value.hero.tagline;
