@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "382403cd1d4513b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a8890aa435296c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f921075d48b86e09",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e63d8e42454405e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9746be94adb3dca2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95e2e30200df0d61",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa6234939f99f4d9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4374622dad904609",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8db16903b78b509a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f246f6fdb1bcfe5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "524bd2fdc877f649",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c6ede15767432ff6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6c9924a4227ef12d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "54d5880cab003c9a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "f921075d48b86e09",
+  "lastOpenFiles": [
+    "知识库/网页中文字体加载速度优化.md",
+    "知识库/什么是设计资产数字化.md",
+    "知识库/assets/网页中文字体加载速度优化/首次加载.jpg",
+    "知识库/assets/网页中文字体加载速度优化/字体分析.webp",
+    "知识库/assets/网页中文字体加载速度优化/在线字体分包.jpg",
+    "知识库/assets/网页中文字体加载速度优化/分包操作.mp4",
+    "知识库/assets/网页中文字体加载速度优化/优化后加载.jpg",
+    "知识库/assets/网页中文字体加载速度优化/fsp.gif",
+    "知识库/assets/网页中文字体加载速度优化/fontmini.png",
+    "知识库/assets/什么是设计资产数字化/image-3.png",
+    "知识库/assets/什么是设计资产数字化/image.png",
+    "知识库/assets/什么是设计资产数字化/image-2.png",
+    "知识库/assets/什么是设计资产数字化/image-1.png",
+    "知识库/assets/网页中文字体加载速度优化",
+    "知识库/assets/什么是设计资产数字化",
+    "知识库/assets",
+    "知识库/Git常用命令.md",
+    "知识库/网页中文字体加载速度优化/分包操作.mp4",
+    "知识库/网页中文字体加载速度优化/index.md",
+    "知识库/网页中文字体加载速度优化",
+    "知识库/什么是设计资产数字化？/index.md",
+    "知识库/什么是设计资产数字化？",
+    "知识库/Git常用命令/index.md",
+    "知识库/Git常用命令",
+    "知识库/Git常用命令/Git常用命令.md",
+    "知识库/网页中文字体加载速度优化/网页中文字体加载速度优化.md",
+    "知识库/网页中文字体加载速度优化/assets/网页中文字体加载速度优化/分包操作.mp4",
+    "知识库/网页中文字体加载速度优化/assets/网页中文字体加载速度优化",
+    "知识库/什么是设计资产数字化？/什么是设计资产数字化.md",
+    "知识库/什么是设计资产数字化？/什么是设计资产数字化？.md",
+    "文档/开源项目.md",
+    "文档/自我介绍.md",
+    "文档/api-examples.md"
+  ]
+}

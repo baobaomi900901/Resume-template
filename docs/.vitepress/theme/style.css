@@ -1,7 +1,16 @@
 .VPNavBarTitle.has-sidebar {
-  transform: translateX(6px);
+  /* transform: translateX(6px); */
 }
 
+/* Chrome, Safari, Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
 /* .dark body {
   width: 100vw;
   height: 100vh;

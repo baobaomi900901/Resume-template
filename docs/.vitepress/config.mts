@@ -27,6 +27,8 @@ const componentsSidebarOptions = {
   useFolderTitleFromIndexFile: true,
   useFolderLinkFromIndexFile: true,
   folderLinkNotIncludesFileName: true,
+  sortMenusByFrontmatterDate: true, // 启用日期排序
+  sortMenusOrderByDescending: true, // 升序
 };
 
 export default defineConfigWithTheme({
