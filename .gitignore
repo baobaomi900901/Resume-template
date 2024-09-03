@@ -8,7 +8,7 @@ lerna-debug.log*
 .pnpm-debug.log*
 
 # 禁止跟踪docs/.vitepress/cache/
-docs/.vitepress/cache
+docs/.vitepress/cache/*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
