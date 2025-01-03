@@ -1,18 +1,7 @@
-<script setup>
-import Banner from "./components/Banner.vue";
-import IconsItem from "./components/IconsItem.vue";
-import Grid from "./components/Grid.vue";
-</script>
+<script setup></script>
 
 <template>
-  <header></header>
-
-  <main>
-    <!-- <Banner /> -->
-    <!-- <IconsItem /> -->
-    <Grid />
-  </main>
+  <div>空项目</div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -1,0 +1,53 @@
+{
+  "nav": [
+    {
+      "text": "Knowledge",
+      "link": "/doc/knowledge/"
+    },
+    { "text": "Component", "link": "/doc/components/" },
+    {
+      "text": "External_Links",
+      "items": [
+        {
+          "text": "图标库",
+          "link": "https://sengoku-f.github.io/KSW-vue-icon/"
+        },
+        {
+          "text": "故事书",
+          "link": "https://ksw-storybook.design.donxj.com/"
+        },
+        {
+          "text": "英文版",
+          "link": "https://www.baidu.com"
+        }
+      ]
+    },
+    {
+      "text": "About",
+      "link": "/doc/About",
+      "isChildrenMenu": true
+    }
+  ],
+  "headMenuLabel": [
+    {
+      "id": "Knowledge",
+      "zh": "知识库",
+      "en": "Knowledge"
+    },
+    {
+      "id": "Component",
+      "zh": "组件库",
+      "en": "Component"
+    },
+    {
+      "id": "External_Links",
+      "zh": "外部链接",
+      "en": "External Links"
+    },
+    {
+      "id": "About",
+      "zh": "关于我们",
+      "en": "About"
+    }
+  ]
+}

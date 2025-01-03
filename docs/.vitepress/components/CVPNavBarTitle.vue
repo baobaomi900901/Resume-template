@@ -7,26 +7,21 @@
 !-->
 <template>
   <div class="VPNavBarTitle" :class="{ 'has-sidebar': hasSidebar }">
-    <a
-      class="title"
-      :href="link ?? normalizeLink(currentLang.link)"
-      :rel="rel"
-      :target="target"
-    >
+    <a class="title" :href="link ?? normalizeLink(currentLang.link)" :rel="rel" :target="target">
       <div ref="containerBox" class="containerBox2">
         <div class="box-wrapper">
           <div ref="boxFaces" class="box-faces">
             <div class="box-face box-face1">
-              <p>MT</p>
+              <p class="text-xl">King</p>
             </div>
             <div class="box-face box-face2">
-              <p>D</p>
+              <p class="text-xl">Auto</p>
             </div>
             <div class="box-face box-face4">
-              <p>C</p>
+              <p class="text-xl">Mate</p>
             </div>
             <div class="box-face box-face3">
-              <p class="text-2xl">😼</p>
+              <p class="text-xl">Doc</p>
             </div>
           </div>
         </div>
@@ -42,32 +37,22 @@
 </template>
 
 <script setup>
-import { ref, reactive, computed } from "vue";
-import { useData } from "vitepress";
-import { useSidebar } from "./composables/sidebar";
-import { useLangs } from "./composables/langs";
-import { normalizeLink } from "./support/utils";
+import { ref, reactive, computed } from 'vue';
+import { useData } from 'vitepress';
+import { useSidebar } from './composables/sidebar';
+import { useLangs } from './composables/langs';
+import { normalizeLink } from './support/utils';
 
 const { site, theme } = useData();
 const { hasSidebar } = useSidebar();
 const { currentLang } = useLangs();
 
 const link = computed(() =>
-  typeof theme.value.logoLink === "string"
-    ? theme.value.logoLink
-    : theme.value.logoLink?.link
+  typeof theme.value.logoLink === 'string' ? theme.value.logoLink : theme.value.logoLink?.link
 );
-const rel = computed(() =>
-  typeof theme.value.logoLink === "string"
-    ? undefined
-    : theme.value.logoLink?.rel
-);
+const rel = computed(() => (typeof theme.value.logoLink === 'string' ? undefined : theme.value.logoLink?.rel));
 
-const target = computed(() =>
-  typeof theme.value.logoLink === "string"
-    ? undefined
-    : theme.value.logoLink?.target
-);
+const target = computed(() => (typeof theme.value.logoLink === 'string' ? undefined : theme.value.logoLink?.target));
 </script>
 <style scoped>
 .title {
@@ -138,7 +123,7 @@ const target = computed(() =>
 }
 
 .box-face1:after {
-  content: "";
+  content: '';
   position: absolute;
   top: -30px;
   right: -30px;

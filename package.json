@@ -13,20 +13,21 @@
   },
   "dependencies": {
     "@escook/vitepress-theme": "^1.3.1",
+    "@ksware/ksw-ux": "^0.0.112",
     "@vueuse/core": "^11.0.3",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-container": "^4.0.0",
     "minisearch": "^7.1.0",
     "three": "^0.167.1",
-    "vue": "^3.4.21"
-  },
-  "devDependencies": {
+    "vue": "^3.4.21",
     "@iframe-resizer/vue": "^5.1.4",
     "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.19",
     "fontfaceobserver": "^2.3.0",
     "gsap": "^3.12.5",
-    "ksw-vue-icon": "latest",
+    "ksw-vue-icon": "^2.3.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "vite": "^5.2.8",
@@ -34,5 +35,6 @@
     "vitepress-sidebar": "^1.23.0",
     "vue-clipboard3": "^2.0.0",
     "vue-m-message": "^4.0.2"
-  }
+  },
+  "devDependencies": {}
 }
